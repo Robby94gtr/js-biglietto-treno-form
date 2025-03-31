@@ -3,3 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: #b81550;
+    margin-top: 10px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+
+.red-border{
+    border: 2px solid #b81550;;
+}
+
+.center{
+    text-align: center;
+}
+
+.txt-color{
+    color: #b81550;;
+}
+
+.bg-btn{
+    background-color: #cdcdcc;
+}
