@@ -39,3 +39,15 @@ button1.addEventListener('click', function(event) {
         offerta.innerHTML = 'Tariffa standard';
     }
 });
+
+//creo funzionamento del bottone "annulla"
+
+button2.addEventListener('click', function(event) {
+    event.preventDefault(); 
+    form.reset();
+    passName.innerHTML = '';
+    carrozza.innerHTML = '';
+    codice.innerHTML = '';
+    costo.innerHTML = '';
+    offerta.innerHTML = '';
+});
